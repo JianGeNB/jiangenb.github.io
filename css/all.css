@@ -1,0 +1,15 @@
+@charset "UTF-8";
+#box{background:url('../images/4.jpg') center/cover;color:white;font-size: 20px;position: relative;overflow: hidden;-webkit-user-select:none;height: 666px;}
+#boxon{width: 100%;height: 100%;background: black;opacity: 0.2}
+#navigation{width: 100%;margin: 0 auto;color: white;font-family: '黑体'}
+#navigation2{width: 100%;margin: 0 auto;color: black;font-family: '黑体';background: white;opacity: 0.5;display: none;position: fixed;top: 0;}
+#navigation>ul{margin-left: 800px;}
+#navigation2>ul{margin-left: 800px;}
+.title{width: 800px; color: white;font-size: 35px;font-family: 'YouYuan';margin: 20px 20px 20px 50px;display: inline-block;opacity: 0;}
+.clearfix>li{float: left;margin:30px ;}
+.fontcolor{color: #E76D32}
+#navigation a{color: white;}#navigation a:hover{color: red;}
+#navigation2 a{color: black;}#navigation2 a:hover{color: red;}
+#basic{position: absolute;top: 100px;right: 0;}
+#basic img{width: 200px;height: 200px;}
+
