@@ -67,7 +67,9 @@ window.onload=function(){
                 boxDom.appendChild(plane);
                 plane.style.left = e.pageX-boxDom.offsetLeft-10-plane.offsetWidth/2 + 'px';
                 plane.style.top = e.pageY-boxDom.offsetTop-10-plane.offsetHeight/2 + 'px';
-
+                // plane.touchstart=function(){
+                //     alert(1)
+                // }
                 document.onmousemove=function(e){
                     e=e||event;
                     var x=e.pageX-boxDom.offsetLeft-10-plane.offsetWidth/2;

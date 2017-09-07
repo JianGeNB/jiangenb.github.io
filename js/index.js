@@ -17,7 +17,8 @@ var boxDom = document.getElementById("box");
 //             boxsize();
 //         }
 //         }
-
+    document.getElementById("logo").style.top=-141+'px';
+    document.getElementById("logo").style.left=417+'px';
     $(window).scroll(function(){
         var scrollTop=$(window).scrollTop();
         //console.log(scrollTop);
