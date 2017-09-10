@@ -19,8 +19,8 @@
             #end{color: white;font-size: 22px;width: 600px;margin: 60px 45% 0;text-indent: 2em;font-family:"myFont"}
             .stop{-webkit-animation-play-state:paused;}
 @media screen and (max-width: 414px){
-    body{width: 100%;background: url(../images/1.jpg) center/cover;font-family: '华文行楷';}
-    #top{width:20%;font-size: 20px;}
+    body{width: 100%;background: url(../images/1.jpg) center/cover;}
+    #top{width:20%;font-size: 20px;font-family: "华文行楷";}
     #box{margin: 0 auto;width: 120px;height: 120px;}
     #box img{width: 120px;height: 120px;}
     #end{margin: 0 auto;width: 70%;height: 500px}
