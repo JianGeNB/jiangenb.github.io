@@ -5,6 +5,7 @@
  * @version $Id$
  */
  // 定义图片旋转，鼠标事件,情话特效
+
 $("#box ul li").each(function(i){
             var deg=360/$("#box ul li").size();
             $(this).css({"transform": "rotateY("+deg*i+"deg)translateZ(216px)"})
@@ -16,6 +17,7 @@ $("#box ul li").each(function(i){
             i++;
             var font =setTimeout(print,150);
             //console.log(i);
+            //console.log($(window).height())
             if(i==str.length){
                 clearTimeout(font);
             }

@@ -14,12 +14,4 @@
 #navigation a{color: white;}#navigation a:hover{color: red;}
 #navigation2 a{color: black;}#navigation2 a:hover{color: red;}
 
-#box2{width: 100%;position: relative;height: 1000px;
-background:url(../images/10.png) no-repeat 1059px 33px;/*right: -100px;*/text-align: center;background-size: 300px 800px;}
-.swiper-container{width:1000px;height:500px;margin: auto;}
-            .swiper-slide{height:500px;text-align:center;font-size:30px;margin:auto;}
 
-
-            .my-swiper{}
-h1{margin: 50px;border-bottom: 5px solid black;width: 1232px;text-align: left;}
-#box2 p{font-family: "微软雅黑" ;font-size: 600px;width: 1000px;text-align: left;margin: 0 0 0 100px}
